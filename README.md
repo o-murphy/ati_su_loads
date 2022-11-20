@@ -8,6 +8,7 @@ v1.0.1a0 (Python 3.8+)
 git clone https://github.com/o-murphy/ati_su_loads
 cd ati_su_loads
 python venv venv
+. venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 cp example-config.toml config.toml
