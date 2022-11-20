@@ -1,0 +1,28 @@
+[bot]
+token = "00000000:XXXXXXXXXXXXXXXXXXXXXXXXXXXX-XXXXXX"
+
+[logger]
+level = 20
+filemode = "w"
+filename = 'scrapper.log'
+
+# logging levels:
+# CRITICAL = 50
+# FATAL = CRITICAL
+# ERROR = 40
+# WARNING = 30
+# WARN = WARNING
+# INFO = 20
+# DEBUG = 10
+# NOTSET = 0
+
+[scrapper]
+cookies_path = 'cookiespapa'
+driver_options = [
+    "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",
+    "--disable-blink-features",
+    "--disable-blink-feautures=AutomationControlled",
+    "--headless",
+    '--disable-gpu',
+]
+
